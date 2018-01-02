@@ -1,0 +1,1 @@
+heroku pg:backups restore $(heroku pg:backups public-url --app statecraft-api) --confirm statecraft-api-staging --app statecraft-api-staging
